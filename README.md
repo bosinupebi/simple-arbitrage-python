@@ -2,12 +2,16 @@
 
 This repository contains a simple, mechanical system for discovering, evaluating, rating, and submitting arbitrage opportunities to an EVM RPC endpoint. This script is very unlikely to be profitable, as many users will have access to it, and it is targeting well-known Ethereum opportunities.
 
+This early iteration uses a binary search to solve for the volume, but there are better ways to determine the optimal volume for arbitrage between to uniswapV2 pairs
+
 This repository is a spiritual successor to the Flashbots typescript simple arbitrage repo. See the [Flashbots Simple Arbitrage](https://github.com/flashbots/simple-arbitrage)
 
-Environment Variables
+Important Variables
 =====================
 - **RPC_url** - Ethereum RPC endpoint.
 - **PRIVATE_KEY** - Private key for the Ethereum EOA that will be submitting Ethereum transactions.
+- **botPilot** - Address for the Ethereum EOA that will be submitting Ethereum transactions.
+
 
 
 Usage
