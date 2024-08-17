@@ -1,6 +1,5 @@
 # simple-arbitrage-python
 
-================
 This repository contains a simple, mechanical system for discovering, evaluating, rating, and submitting arbitrage opportunities to an EVM RPC endpoint. This script is very unlikely to be profitable, as many users will have access to it, and it is targeting well-known Ethereum opportunities.
 
 This repository is a spiritual successor to the Flashbots typescript simple arbitrage repo. See the [Flashbots Simple Arbitrage](https://github.com/flashbots/simple-arbitrage)
